@@ -41,15 +41,11 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-         self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.isNavigationBarHidden = false
         self.sideMenuViewController?.presentLeftMenuViewController()
         
     }
     
-    
-    func setUpSildemenu() {
-        self.sideMenuViewController.
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -114,6 +110,8 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
     }
 
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        
+        self.sideMenuViewController?.presentLeftMenuViewController()
         if item.tag == 0 {
             if let block = blockReloadData {
                 block()

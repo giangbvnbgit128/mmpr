@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MGLeftMenuViewController" customModule="MangaProject" customModuleProvider="target">
             <connections>
+                <outlet property="spacingRightLeftMenuNSContraint" destination="P9d-DX-Z4Y" id="OoI-uv-GV2"/>
+                <outlet property="spacingTopMenuContraint" destination="p41-rk-5rP" id="yna-1z-hjV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,19 +24,31 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-nav-left" translatesAutoresizingMaskIntoConstraints="NO" id="pfE-7r-ZW9">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uaD-5f-RkB">
-                    <rect key="frame" x="0.0" y="0.0" width="275" height="667"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uaD-5f-RkB" userLabel="slidemenu">
+                    <rect key="frame" x="0.0" y="34" width="296.5" height="633"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D8x-AJ-1kS">
+                            <rect key="frame" x="-0.5" y="0.0" width="297" height="633"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
                     <color key="backgroundColor" red="1" green="0.47066167599999997" blue="0.51455662930000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="D8x-AJ-1kS" firstAttribute="height" secondItem="uaD-5f-RkB" secondAttribute="height" id="24w-Eu-YhQ"/>
+                        <constraint firstItem="D8x-AJ-1kS" firstAttribute="width" secondItem="uaD-5f-RkB" secondAttribute="width" id="q01-RF-WEP"/>
+                        <constraint firstItem="D8x-AJ-1kS" firstAttribute="centerY" secondItem="uaD-5f-RkB" secondAttribute="centerY" id="reT-1A-yVA"/>
+                        <constraint firstItem="D8x-AJ-1kS" firstAttribute="centerX" secondItem="uaD-5f-RkB" secondAttribute="centerX" id="t14-Tt-nEt"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="pfE-7r-ZW9" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="FGK-sf-bnx"/>
-                <constraint firstAttribute="trailing" secondItem="uaD-5f-RkB" secondAttribute="trailing" constant="100" id="P9d-DX-Z4Y"/>
+                <constraint firstAttribute="trailing" secondItem="uaD-5f-RkB" secondAttribute="trailing" constant="78.75" id="P9d-DX-Z4Y"/>
                 <constraint firstItem="uaD-5f-RkB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qyz-Ot-TwD"/>
                 <constraint firstAttribute="bottom" secondItem="uaD-5f-RkB" secondAttribute="bottom" id="SD5-F3-9SC"/>
                 <constraint firstItem="pfE-7r-ZW9" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Ynm-Sc-8t3"/>
-                <constraint firstItem="uaD-5f-RkB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="p41-rk-5rP"/>
+                <constraint firstItem="uaD-5f-RkB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="34" id="p41-rk-5rP"/>
                 <constraint firstItem="pfE-7r-ZW9" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="qs7-KR-92p"/>
                 <constraint firstItem="pfE-7r-ZW9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zjY-9r-uvW"/>
             </constraints>
