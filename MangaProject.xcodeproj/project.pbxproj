@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5326ACA21F2647F300C86C74 /* MGKidLockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACA01F2647F300C86C74 /* MGKidLockTableViewCell.swift */; };
+		5326ACA31F2647F300C86C74 /* MGKidLockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACA11F2647F300C86C74 /* MGKidLockTableViewCell.xib */; };
+		5326ACA61F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACA41F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.swift */; };
+		5326ACA71F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACA51F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib */; };
+		5326ACAD1F26618900C86C74 /* MGCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACAB1F26618900C86C74 /* MGCommentViewController.swift */; };
+		5326ACAE1F26618900C86C74 /* MGCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACAC1F26618900C86C74 /* MGCommentViewController.xib */; };
+		5326ACB11F2661A100C86C74 /* MGDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACAF1F2661A100C86C74 /* MGDownloadListViewController.swift */; };
+		5326ACB21F2661A100C86C74 /* MGDownloadListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACB01F2661A100C86C74 /* MGDownloadListViewController.xib */; };
+		5326ACB51F2661B400C86C74 /* MGSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACB31F2661B400C86C74 /* MGSettingViewController.swift */; };
+		5326ACB61F2661B400C86C74 /* MGSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACB41F2661B400C86C74 /* MGSettingViewController.xib */; };
+		5326ACBA1F266C0D00C86C74 /* MGHeaderSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACB81F266C0D00C86C74 /* MGHeaderSettingTableViewCell.swift */; };
+		5326ACBB1F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACB91F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib */; };
+		5326ACBE1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACBC1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift */; };
+		5326ACBF1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACBD1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib */; };
+		5326ACC21F266C9300C86C74 /* MGSettingInforTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326ACC01F266C9300C86C74 /* MGSettingInforTableViewCell.swift */; };
+		5326ACC31F266C9300C86C74 /* MGSettingInforTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5326ACC11F266C9300C86C74 /* MGSettingInforTableViewCell.xib */; };
 		53CFD2321F21104100BF3F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFD2311F21104100BF3F9E /* AppDelegate.swift */; };
 		53CFD2371F21104100BF3F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CFD2351F21104100BF3F9E /* Main.storyboard */; };
 		53CFD2391F21104100BF3F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CFD2381F21104100BF3F9E /* Assets.xcassets */; };
@@ -99,6 +115,22 @@
 /* Begin PBXFileReference section */
 		05C8A32CCE95420CE11701C7 /* Pods-MangaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MangaProject/Pods-MangaProject.release.xcconfig"; sourceTree = "<group>"; };
 		4B2518BFD0A355C6D3830A06 /* Pods-MangaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MangaProject/Pods-MangaProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5326ACA01F2647F300C86C74 /* MGKidLockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGKidLockTableViewCell.swift; sourceTree = "<group>"; };
+		5326ACA11F2647F300C86C74 /* MGKidLockTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGKidLockTableViewCell.xib; sourceTree = "<group>"; };
+		5326ACA41F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGItemMenuNomalTableViewCell.swift; sourceTree = "<group>"; };
+		5326ACA51F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGItemMenuNomalTableViewCell.xib; sourceTree = "<group>"; };
+		5326ACAB1F26618900C86C74 /* MGCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGCommentViewController.swift; sourceTree = "<group>"; };
+		5326ACAC1F26618900C86C74 /* MGCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCommentViewController.xib; sourceTree = "<group>"; };
+		5326ACAF1F2661A100C86C74 /* MGDownloadListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGDownloadListViewController.swift; sourceTree = "<group>"; };
+		5326ACB01F2661A100C86C74 /* MGDownloadListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGDownloadListViewController.xib; sourceTree = "<group>"; };
+		5326ACB31F2661B400C86C74 /* MGSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGSettingViewController.swift; sourceTree = "<group>"; };
+		5326ACB41F2661B400C86C74 /* MGSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGSettingViewController.xib; sourceTree = "<group>"; };
+		5326ACB81F266C0D00C86C74 /* MGHeaderSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGHeaderSettingTableViewCell.swift; sourceTree = "<group>"; };
+		5326ACB91F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGHeaderSettingTableViewCell.xib; sourceTree = "<group>"; };
+		5326ACBC1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGItemSettingSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		5326ACBD1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGItemSettingSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		5326ACC01F266C9300C86C74 /* MGSettingInforTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGSettingInforTableViewCell.swift; sourceTree = "<group>"; };
+		5326ACC11F266C9300C86C74 /* MGSettingInforTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGSettingInforTableViewCell.xib; sourceTree = "<group>"; };
 		53CFD22E1F21104100BF3F9E /* MangaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CFD2311F21104100BF3F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		53CFD2361F21104100BF3F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -213,6 +245,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5326ACA81F26617100C86C74 /* MGCommentViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				5326ACAB1F26618900C86C74 /* MGCommentViewController.swift */,
+				5326ACAC1F26618900C86C74 /* MGCommentViewController.xib */,
+			);
+			path = MGCommentViewContrller;
+			sourceTree = "<group>";
+		};
+		5326ACA91F26617100C86C74 /* MGDownloadListController */ = {
+			isa = PBXGroup;
+			children = (
+				5326ACAF1F2661A100C86C74 /* MGDownloadListViewController.swift */,
+				5326ACB01F2661A100C86C74 /* MGDownloadListViewController.xib */,
+			);
+			path = MGDownloadListController;
+			sourceTree = "<group>";
+		};
+		5326ACAA1F26617100C86C74 /* MGSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5326ACB71F266BF100C86C74 /* Cell */,
+				5326ACB31F2661B400C86C74 /* MGSettingViewController.swift */,
+				5326ACB41F2661B400C86C74 /* MGSettingViewController.xib */,
+			);
+			path = MGSettingViewController;
+			sourceTree = "<group>";
+		};
+		5326ACB71F266BF100C86C74 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5326ACB81F266C0D00C86C74 /* MGHeaderSettingTableViewCell.swift */,
+				5326ACB91F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib */,
+				5326ACBC1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift */,
+				5326ACBD1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib */,
+				5326ACC01F266C9300C86C74 /* MGSettingInforTableViewCell.swift */,
+				5326ACC11F266C9300C86C74 /* MGSettingInforTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		53CFD2251F21104100BF3F9E = {
 			isa = PBXGroup;
 			children = (
@@ -584,6 +657,10 @@
 				53E00C3F1F24FD99001C7A36 /* MGProfileTableViewCell.xib */,
 				53E00C421F24FFF5001C7A36 /* MGStaticticalTableViewCell.swift */,
 				53E00C431F24FFF5001C7A36 /* MGStaticticalTableViewCell.xib */,
+				5326ACA01F2647F300C86C74 /* MGKidLockTableViewCell.swift */,
+				5326ACA11F2647F300C86C74 /* MGKidLockTableViewCell.xib */,
+				5326ACA41F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.swift */,
+				5326ACA51F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -591,6 +668,9 @@
 		53CFD3C81F2112A400BF3F9E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5326ACA81F26617100C86C74 /* MGCommentViewContrller */,
+				5326ACA91F26617100C86C74 /* MGDownloadListController */,
+				5326ACAA1F26617100C86C74 /* MGSettingViewController */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -749,12 +829,20 @@
 				53CFD23C1F21104100BF3F9E /* LaunchScreen.storyboard in Resources */,
 				53CFD3B91F21108A00BF3F9E /* AVTutorialCollectionViewCell.xib in Resources */,
 				53CFD2391F21104100BF3F9E /* Assets.xcassets in Resources */,
+				5326ACB61F2661B400C86C74 /* MGSettingViewController.xib in Resources */,
 				53E00C411F24FD99001C7A36 /* MGProfileTableViewCell.xib in Resources */,
 				53CFD2371F21104100BF3F9E /* Main.storyboard in Resources */,
+				5326ACC31F266C9300C86C74 /* MGSettingInforTableViewCell.xib in Resources */,
 				53E00C451F24FFF5001C7A36 /* MGStaticticalTableViewCell.xib in Resources */,
+				5326ACAE1F26618900C86C74 /* MGCommentViewController.xib in Resources */,
+				5326ACB21F2661A100C86C74 /* MGDownloadListViewController.xib in Resources */,
 				53ED1A221F2118BE006D7CB8 /* MGLeftMenuViewController.xib in Resources */,
+				5326ACA71F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib in Resources */,
+				5326ACBF1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib in Resources */,
 				53CFD3B51F21108A00BF3F9E /* MGMainViewController.xib in Resources */,
 				53CFD3B71F21108A00BF3F9E /* AVTutorialViewController.xib in Resources */,
+				5326ACA31F2647F300C86C74 /* MGKidLockTableViewCell.xib in Resources */,
+				5326ACBB1F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,6 +915,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5326ACAD1F26618900C86C74 /* MGCommentViewController.swift in Sources */,
 				53CFD3321F21108A00BF3F9E /* GCD.swift in Sources */,
 				53CFD3581F21108A00BF3F9E /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				53CFD32E1F21108A00BF3F9E /* CGFloat.swift in Sources */,
@@ -839,6 +928,7 @@
 				53CFD35F1F21108A00BF3F9E /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				53CFD33C1F21108A00BF3F9E /* UICollectionView.swift in Sources */,
 				53CFD3441F21108A00BF3F9E /* UIScreen.swift in Sources */,
+				5326ACB51F2661B400C86C74 /* MGSettingViewController.swift in Sources */,
 				53CFD3541F21108A00BF3F9E /* AVDatamanager.swift in Sources */,
 				53CFD32F1F21108A00BF3F9E /* Dictionary.swift in Sources */,
 				53CFD3341F21108A00BF3F9E /* NSDate.swift in Sources */,
@@ -852,13 +942,16 @@
 				53CFD3281F21108A00BF3F9E /* MGBaseCollectionViewCell.swift in Sources */,
 				53CFD35A1F21108A00BF3F9E /* CAPSPageMenuConfiguration.swift in Sources */,
 				53CFD35B1F21108A00BF3F9E /* MenuItemView.swift in Sources */,
+				5326ACBA1F266C0D00C86C74 /* MGHeaderSettingTableViewCell.swift in Sources */,
 				53CFD2321F21104100BF3F9E /* AppDelegate.swift in Sources */,
 				53CFD3401F21108A00BF3F9E /* UIImage.swift in Sources */,
 				53CFD3591F21108A00BF3F9E /* CAPSPageMenu.swift in Sources */,
+				5326ACBE1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift in Sources */,
 				53E00C401F24FD99001C7A36 /* MGProfileTableViewCell.swift in Sources */,
 				53CFD33A1F21108A00BF3F9E /* String.swift in Sources */,
 				53CFD3311F21108A00BF3F9E /* Float.swift in Sources */,
 				53CFD3551F21108A00BF3F9E /* CAPSPageMenu+Options.swift in Sources */,
+				5326ACC21F266C9300C86C74 /* MGSettingInforTableViewCell.swift in Sources */,
 				53CFD3561F21108A00BF3F9E /* CAPSPageMenu+UIConfiguration.swift in Sources */,
 				53CFD3B41F21108A00BF3F9E /* MGMainViewController.swift in Sources */,
 				53CFD35C1F21108A00BF3F9E /* TPKeyboardAvoidingCollectionView.m in Sources */,
@@ -868,12 +961,14 @@
 				53CFD33F1F21108A00BF3F9E /* UIFont.swift in Sources */,
 				53CFD3451F21108A00BF3F9E /* UITabBarController.swift in Sources */,
 				53CFD3491F21108A00BF3F9E /* UIWindow.swift in Sources */,
+				5326ACA61F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.swift in Sources */,
 				53CFD32C1F21108A00BF3F9E /* Defines.swift in Sources */,
 				53CFD3381F21108A00BF3F9E /* NSUserDefaults.swift in Sources */,
 				53CFD33D1F21108A00BF3F9E /* UIColor.swift in Sources */,
 				53CFD3331F21108A00BF3F9E /* Int.swift in Sources */,
 				53CFD3571F21108A00BF3F9E /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 				53CFD33E1F21108A00BF3F9E /* UIDevice.swift in Sources */,
+				5326ACA21F2647F300C86C74 /* MGKidLockTableViewCell.swift in Sources */,
 				53CFD3391F21108A00BF3F9E /* Optional.swift in Sources */,
 				53CFD3301F21108A00BF3F9E /* Double.swift in Sources */,
 				53CFD3431F21108A00BF3F9E /* UINavigationController.swift in Sources */,
@@ -881,6 +976,7 @@
 				53CFD32A1F21108A00BF3F9E /* MGBaseTableViewCell.swift in Sources */,
 				53CFD34B1F21108A00BF3F9E /* AVChangPassRouter.swift in Sources */,
 				53CFD35E1F21108A00BF3F9E /* TPKeyboardAvoidingTableView.m in Sources */,
+				5326ACB11F2661A100C86C74 /* MGDownloadListViewController.swift in Sources */,
 				53CFD3B61F21108A00BF3F9E /* AVTutorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

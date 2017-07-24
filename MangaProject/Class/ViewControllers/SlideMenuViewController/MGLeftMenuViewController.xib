@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="spacingRightLeftMenuNSContraint" destination="P9d-DX-Z4Y" id="OoI-uv-GV2"/>
                 <outlet property="spacingTopMenuContraint" destination="p41-rk-5rP" id="yna-1z-hjV"/>
+                <outlet property="tableView" destination="D8x-AJ-1kS" id="YhZ-Px-SkZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,12 +28,13 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uaD-5f-RkB" userLabel="slidemenu">
                     <rect key="frame" x="0.0" y="34" width="296.5" height="633"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D8x-AJ-1kS">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D8x-AJ-1kS">
                             <rect key="frame" x="-0.5" y="0.0" width="297" height="633"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </tableView>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="0.47066167599999997" blue="0.51455662930000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="D8x-AJ-1kS" firstAttribute="height" secondItem="uaD-5f-RkB" secondAttribute="height" id="24w-Eu-YhQ"/>
                         <constraint firstItem="D8x-AJ-1kS" firstAttribute="width" secondItem="uaD-5f-RkB" secondAttribute="width" id="q01-RF-WEP"/>
