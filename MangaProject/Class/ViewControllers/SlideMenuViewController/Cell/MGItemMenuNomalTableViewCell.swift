@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGItemMenuNomalTableViewCell: UITableViewCell {
+class MGItemMenuNomalTableViewCell: MGBaseTableViewCell {
     @IBOutlet weak var avartaImage: UIImageView!
     @IBOutlet weak var titleLable: UILabel!
 

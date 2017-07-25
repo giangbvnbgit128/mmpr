@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGDownloadListViewController: UIViewController {
+class MGDownloadListViewController: MGBaseViewController {
 
     @IBOutlet weak var titleTopviewLable: UILabel!
     @IBOutlet weak var viewadsButtom: UIButton!

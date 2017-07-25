@@ -16,7 +16,7 @@ enum ImageIconRight:String {
     case ImageNomal = "NULL"
 }
 
-class MGSettingViewController: UIViewController {
+class MGSettingViewController: MGBaseViewController {
 
     let arrTitleHeader:[String] = ["Tải truyện","Bảo mật","Trung tâm thông báo","Phản hồi","Hệ thống"]
     let arrDownload:[String] = ["Chỉ tải bằng wifi","Xoá cache","Xoá danh sách truyện vừa đọc"]

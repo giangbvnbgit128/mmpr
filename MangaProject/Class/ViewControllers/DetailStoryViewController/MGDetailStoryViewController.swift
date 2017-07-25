@@ -1,5 +1,5 @@
 //
-//  MGCommentViewController.swift
+//  MGDetailStoryViewController.swift
 //  MangaProject
 //
 //  Created by Bui Giang on 7/25/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGCommentViewController: MGBaseViewController {
+class MGDetailStoryViewController: MGBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

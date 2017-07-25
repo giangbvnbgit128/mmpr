@@ -83,6 +83,20 @@
 		53CFD3B71F21108A00BF3F9E /* AVTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CFD3231F21108A00BF3F9E /* AVTutorialViewController.xib */; };
 		53CFD3B81F21108A00BF3F9E /* AVTutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFD3251F21108A00BF3F9E /* AVTutorialCollectionViewCell.swift */; };
 		53CFD3B91F21108A00BF3F9E /* AVTutorialCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CFD3261F21108A00BF3F9E /* AVTutorialCollectionViewCell.xib */; };
+		53D7B2961F279BC30093B08A /* MGTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2941F279BC30093B08A /* MGTopViewController.swift */; };
+		53D7B2971F279BC30093B08A /* MGTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2951F279BC30093B08A /* MGTopViewController.xib */; };
+		53D7B29A1F279BD80093B08A /* MGCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2981F279BD80093B08A /* MGCategoryViewController.swift */; };
+		53D7B29B1F279BD80093B08A /* MGCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2991F279BD80093B08A /* MGCategoryViewController.xib */; };
+		53D7B29E1F279C020093B08A /* MGDetailStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B29C1F279C020093B08A /* MGDetailStoryViewController.swift */; };
+		53D7B29F1F279C020093B08A /* MGDetailStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B29D1F279C020093B08A /* MGDetailStoryViewController.xib */; };
+		53D7B2A21F279C180093B08A /* MGDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2A01F279C180093B08A /* MGDiscoverViewController.swift */; };
+		53D7B2A31F279C180093B08A /* MGDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2A11F279C180093B08A /* MGDiscoverViewController.xib */; };
+		53D7B2A61F279C290093B08A /* MGLabriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2A41F279C290093B08A /* MGLabriViewController.swift */; };
+		53D7B2A71F279C290093B08A /* MGLabriViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2A51F279C290093B08A /* MGLabriViewController.xib */; };
+		53D7B2AA1F279C3D0093B08A /* MGNewestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2A81F279C3D0093B08A /* MGNewestViewController.swift */; };
+		53D7B2AB1F279C3D0093B08A /* MGNewestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2A91F279C3D0093B08A /* MGNewestViewController.xib */; };
+		53D7B2AE1F279C550093B08A /* MGReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7B2AC1F279C550093B08A /* MGReadViewController.swift */; };
+		53D7B2AF1F279C550093B08A /* MGReadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D7B2AD1F279C550093B08A /* MGReadViewController.xib */; };
 		53E00C401F24FD99001C7A36 /* MGProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E00C3E1F24FD99001C7A36 /* MGProfileTableViewCell.swift */; };
 		53E00C411F24FD99001C7A36 /* MGProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E00C3F1F24FD99001C7A36 /* MGProfileTableViewCell.xib */; };
 		53E00C441F24FFF5001C7A36 /* MGStaticticalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E00C421F24FFF5001C7A36 /* MGStaticticalTableViewCell.swift */; };
@@ -201,6 +215,20 @@
 		53CFD3231F21108A00BF3F9E /* AVTutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVTutorialViewController.xib; sourceTree = "<group>"; };
 		53CFD3251F21108A00BF3F9E /* AVTutorialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVTutorialCollectionViewCell.swift; sourceTree = "<group>"; };
 		53CFD3261F21108A00BF3F9E /* AVTutorialCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVTutorialCollectionViewCell.xib; sourceTree = "<group>"; };
+		53D7B2941F279BC30093B08A /* MGTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTopViewController.swift; sourceTree = "<group>"; };
+		53D7B2951F279BC30093B08A /* MGTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGTopViewController.xib; sourceTree = "<group>"; };
+		53D7B2981F279BD80093B08A /* MGCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGCategoryViewController.swift; sourceTree = "<group>"; };
+		53D7B2991F279BD80093B08A /* MGCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCategoryViewController.xib; sourceTree = "<group>"; };
+		53D7B29C1F279C020093B08A /* MGDetailStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGDetailStoryViewController.swift; sourceTree = "<group>"; };
+		53D7B29D1F279C020093B08A /* MGDetailStoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGDetailStoryViewController.xib; sourceTree = "<group>"; };
+		53D7B2A01F279C180093B08A /* MGDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGDiscoverViewController.swift; sourceTree = "<group>"; };
+		53D7B2A11F279C180093B08A /* MGDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGDiscoverViewController.xib; sourceTree = "<group>"; };
+		53D7B2A41F279C290093B08A /* MGLabriViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGLabriViewController.swift; sourceTree = "<group>"; };
+		53D7B2A51F279C290093B08A /* MGLabriViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGLabriViewController.xib; sourceTree = "<group>"; };
+		53D7B2A81F279C3D0093B08A /* MGNewestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGNewestViewController.swift; sourceTree = "<group>"; };
+		53D7B2A91F279C3D0093B08A /* MGNewestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGNewestViewController.xib; sourceTree = "<group>"; };
+		53D7B2AC1F279C550093B08A /* MGReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGReadViewController.swift; sourceTree = "<group>"; };
+		53D7B2AD1F279C550093B08A /* MGReadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGReadViewController.xib; sourceTree = "<group>"; };
 		53E00C3E1F24FD99001C7A36 /* MGProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGProfileTableViewCell.swift; sourceTree = "<group>"; };
 		53E00C3F1F24FD99001C7A36 /* MGProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGProfileTableViewCell.xib; sourceTree = "<group>"; };
 		53E00C421F24FFF5001C7A36 /* MGStaticticalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGStaticticalTableViewCell.swift; sourceTree = "<group>"; };
@@ -552,6 +580,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3BB1F2112A400BF3F9E /* Cell */,
+				53D7B2981F279BD80093B08A /* MGCategoryViewController.swift */,
+				53D7B2991F279BD80093B08A /* MGCategoryViewController.xib */,
 			);
 			path = CategoryViewController;
 			sourceTree = "<group>";
@@ -567,6 +597,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3BD1F2112A400BF3F9E /* Cell */,
+				53D7B29C1F279C020093B08A /* MGDetailStoryViewController.swift */,
+				53D7B29D1F279C020093B08A /* MGDetailStoryViewController.xib */,
 			);
 			path = DetailStoryViewController;
 			sourceTree = "<group>";
@@ -582,6 +614,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3BF1F2112A400BF3F9E /* Cell */,
+				53D7B2A01F279C180093B08A /* MGDiscoverViewController.swift */,
+				53D7B2A11F279C180093B08A /* MGDiscoverViewController.xib */,
 			);
 			path = DiscoverViewController;
 			sourceTree = "<group>";
@@ -597,6 +631,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3C11F2112A400BF3F9E /* Cell */,
+				53D7B2A41F279C290093B08A /* MGLabriViewController.swift */,
+				53D7B2A51F279C290093B08A /* MGLabriViewController.xib */,
 			);
 			path = LabriViewController;
 			sourceTree = "<group>";
@@ -612,6 +648,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3C31F2112A400BF3F9E /* Cell */,
+				53D7B2A81F279C3D0093B08A /* MGNewestViewController.swift */,
+				53D7B2A91F279C3D0093B08A /* MGNewestViewController.xib */,
 			);
 			path = NewestViewController;
 			sourceTree = "<group>";
@@ -627,6 +665,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3C51F2112A400BF3F9E /* Cell */,
+				53D7B2AC1F279C550093B08A /* MGReadViewController.swift */,
+				53D7B2AD1F279C550093B08A /* MGReadViewController.xib */,
 			);
 			path = ReadViewController;
 			sourceTree = "<group>";
@@ -679,6 +719,8 @@
 			isa = PBXGroup;
 			children = (
 				53CFD3CF1F2112B200BF3F9E /* Cell */,
+				53D7B2941F279BC30093B08A /* MGTopViewController.swift */,
+				53D7B2951F279BC30093B08A /* MGTopViewController.xib */,
 			);
 			path = TopViewController;
 			sourceTree = "<group>";
@@ -830,6 +872,8 @@
 				53CFD3B91F21108A00BF3F9E /* AVTutorialCollectionViewCell.xib in Resources */,
 				53CFD2391F21104100BF3F9E /* Assets.xcassets in Resources */,
 				5326ACB61F2661B400C86C74 /* MGSettingViewController.xib in Resources */,
+				53D7B2A31F279C180093B08A /* MGDiscoverViewController.xib in Resources */,
+				53D7B2971F279BC30093B08A /* MGTopViewController.xib in Resources */,
 				53E00C411F24FD99001C7A36 /* MGProfileTableViewCell.xib in Resources */,
 				53CFD2371F21104100BF3F9E /* Main.storyboard in Resources */,
 				5326ACC31F266C9300C86C74 /* MGSettingInforTableViewCell.xib in Resources */,
@@ -838,10 +882,15 @@
 				5326ACB21F2661A100C86C74 /* MGDownloadListViewController.xib in Resources */,
 				53ED1A221F2118BE006D7CB8 /* MGLeftMenuViewController.xib in Resources */,
 				5326ACA71F264B5F00C86C74 /* MGItemMenuNomalTableViewCell.xib in Resources */,
+				53D7B29B1F279BD80093B08A /* MGCategoryViewController.xib in Resources */,
+				53D7B2A71F279C290093B08A /* MGLabriViewController.xib in Resources */,
+				53D7B2AF1F279C550093B08A /* MGReadViewController.xib in Resources */,
 				5326ACBF1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.xib in Resources */,
+				53D7B29F1F279C020093B08A /* MGDetailStoryViewController.xib in Resources */,
 				53CFD3B51F21108A00BF3F9E /* MGMainViewController.xib in Resources */,
 				53CFD3B71F21108A00BF3F9E /* AVTutorialViewController.xib in Resources */,
 				5326ACA31F2647F300C86C74 /* MGKidLockTableViewCell.xib in Resources */,
+				53D7B2AB1F279C3D0093B08A /* MGNewestViewController.xib in Resources */,
 				5326ACBB1F266C0D00C86C74 /* MGHeaderSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -918,6 +967,7 @@
 				5326ACAD1F26618900C86C74 /* MGCommentViewController.swift in Sources */,
 				53CFD3321F21108A00BF3F9E /* GCD.swift in Sources */,
 				53CFD3581F21108A00BF3F9E /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				53D7B29A1F279BD80093B08A /* MGCategoryViewController.swift in Sources */,
 				53CFD32E1F21108A00BF3F9E /* CGFloat.swift in Sources */,
 				53CFD3481F21108A00BF3F9E /* UIViewController.swift in Sources */,
 				53CFD32D1F21108A00BF3F9E /* Array.swift in Sources */,
@@ -932,9 +982,11 @@
 				53CFD3541F21108A00BF3F9E /* AVDatamanager.swift in Sources */,
 				53CFD32F1F21108A00BF3F9E /* Dictionary.swift in Sources */,
 				53CFD3341F21108A00BF3F9E /* NSDate.swift in Sources */,
+				53D7B2AE1F279C550093B08A /* MGReadViewController.swift in Sources */,
 				53CFD35D1F21108A00BF3F9E /* TPKeyboardAvoidingScrollView.m in Sources */,
 				53CFD3471F21108A00BF3F9E /* UIView.swift in Sources */,
 				53CFD3421F21108A00BF3F9E /* UINavigationBar.swift in Sources */,
+				53D7B2A21F279C180093B08A /* MGDiscoverViewController.swift in Sources */,
 				53CFD3461F21108A00BF3F9E /* UITableView.swift in Sources */,
 				53CFD3291F21108A00BF3F9E /* MGBaseNavigationController.swift in Sources */,
 				53CFD32B1F21108A00BF3F9E /* MGBaseViewController.swift in Sources */,
@@ -946,6 +998,7 @@
 				53CFD2321F21104100BF3F9E /* AppDelegate.swift in Sources */,
 				53CFD3401F21108A00BF3F9E /* UIImage.swift in Sources */,
 				53CFD3591F21108A00BF3F9E /* CAPSPageMenu.swift in Sources */,
+				53D7B2AA1F279C3D0093B08A /* MGNewestViewController.swift in Sources */,
 				5326ACBE1F266C4800C86C74 /* MGItemSettingSwitchTableViewCell.swift in Sources */,
 				53E00C401F24FD99001C7A36 /* MGProfileTableViewCell.swift in Sources */,
 				53CFD33A1F21108A00BF3F9E /* String.swift in Sources */,
@@ -956,6 +1009,7 @@
 				53CFD3B41F21108A00BF3F9E /* MGMainViewController.swift in Sources */,
 				53CFD35C1F21108A00BF3F9E /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				53ED1A211F2118BE006D7CB8 /* MGLeftMenuViewController.swift in Sources */,
+				53D7B2A61F279C290093B08A /* MGLabriViewController.swift in Sources */,
 				53CFD3351F21108A00BF3F9E /* NSNotificationCenter.swift in Sources */,
 				53CFD33B1F21108A00BF3F9E /* UIButton.swift in Sources */,
 				53CFD33F1F21108A00BF3F9E /* UIFont.swift in Sources */,
@@ -973,6 +1027,8 @@
 				53CFD3301F21108A00BF3F9E /* Double.swift in Sources */,
 				53CFD3431F21108A00BF3F9E /* UINavigationController.swift in Sources */,
 				53CFD3371F21108A00BF3F9E /* NSString.swift in Sources */,
+				53D7B29E1F279C020093B08A /* MGDetailStoryViewController.swift in Sources */,
+				53D7B2961F279BC30093B08A /* MGTopViewController.swift in Sources */,
 				53CFD32A1F21108A00BF3F9E /* MGBaseTableViewCell.swift in Sources */,
 				53CFD34B1F21108A00BF3F9E /* AVChangPassRouter.swift in Sources */,
 				53CFD35E1F21108A00BF3F9E /* TPKeyboardAvoidingTableView.m in Sources */,

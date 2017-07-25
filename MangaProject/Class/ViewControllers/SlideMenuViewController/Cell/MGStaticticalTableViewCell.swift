@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGStaticticalTableViewCell: UITableViewCell {
+class MGStaticticalTableViewCell: MGBaseTableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

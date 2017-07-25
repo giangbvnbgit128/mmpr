@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MGProfileTableViewCell: UITableViewCell {
+class MGProfileTableViewCell: MGBaseTableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
