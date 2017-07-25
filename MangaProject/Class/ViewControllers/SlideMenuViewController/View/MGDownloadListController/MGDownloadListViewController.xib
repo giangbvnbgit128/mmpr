@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MGDownloadListViewController" customModule="MangaProject" customModuleProvider="target">
+            <connections>
+                <outlet property="titleTopviewLable" destination="NFq-6b-6Gx" id="Up5-fO-Vi7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewadsButtom" destination="C24-Qx-q3a" id="Ppo-7V-fgd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="McW-Ys-ANB" userLabel="TopView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="66.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKA-yI-UeO">
+                            <rect key="frame" x="0.0" y="0.0" width="66.5" height="66.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="xKA-yI-UeO" secondAttribute="height" multiplier="1:1" id="jmh-08-whb"/>
+                            </constraints>
+                            <state key="normal" image="close-view"/>
+                            <connections>
+                                <action selector="actionCloseViewController:" destination="-1" eventType="touchUpInside" id="6Nn-0n-JmG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFG-SB-D3h">
+                            <rect key="frame" x="308.5" y="0.0" width="66.5" height="66.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="HFG-SB-D3h" secondAttribute="height" multiplier="1:1" id="2ym-z0-1hs"/>
+                            </constraints>
+                            <state key="normal" image="delete-recbin"/>
+                            <connections>
+                                <action selector="actionDeleteItem:" destination="-1" eventType="touchUpInside" id="1f3-XL-OJ6"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bạn còn 5 lượt tải " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFq-6b-6Gx">
+                            <rect key="frame" x="66.5" y="24" width="242" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99215686274509807" green="0.33333333333333331" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="HFG-SB-D3h" firstAttribute="top" secondItem="McW-Ys-ANB" secondAttribute="top" id="1cM-xu-hbn"/>
+                        <constraint firstItem="NFq-6b-6Gx" firstAttribute="centerX" secondItem="McW-Ys-ANB" secondAttribute="centerX" id="8GI-Ef-jWG"/>
+                        <constraint firstAttribute="bottom" secondItem="xKA-yI-UeO" secondAttribute="bottom" id="DZC-oc-yVX"/>
+                        <constraint firstItem="NFq-6b-6Gx" firstAttribute="leading" secondItem="xKA-yI-UeO" secondAttribute="trailing" id="S4F-Sv-AHe"/>
+                        <constraint firstItem="xKA-yI-UeO" firstAttribute="leading" secondItem="McW-Ys-ANB" secondAttribute="leading" id="U9F-9z-DBE"/>
+                        <constraint firstAttribute="bottom" secondItem="HFG-SB-D3h" secondAttribute="bottom" id="eQW-Cr-Reh"/>
+                        <constraint firstItem="HFG-SB-D3h" firstAttribute="leading" secondItem="NFq-6b-6Gx" secondAttribute="trailing" id="hew-5G-SpI"/>
+                        <constraint firstAttribute="trailing" secondItem="HFG-SB-D3h" secondAttribute="trailing" id="jdi-9R-ZIi"/>
+                        <constraint firstItem="xKA-yI-UeO" firstAttribute="top" secondItem="McW-Ys-ANB" secondAttribute="top" id="kFt-My-NH9"/>
+                        <constraint firstItem="NFq-6b-6Gx" firstAttribute="centerY" secondItem="McW-Ys-ANB" secondAttribute="centerY" id="x9i-QC-ZIn"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iF-iD-CZH" userLabel="XemThem">
+                    <rect key="frame" x="0.0" y="67" width="375" height="66.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xem video hoặc bấm quảng cáo để nhận thêm lượt tải" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="iIt-Rc-yci">
+                            <rect key="frame" x="8" y="5" width="359" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C24-Qx-q3a">
+                            <rect key="frame" x="125" y="27" width="125" height="34.5"/>
+                            <color key="backgroundColor" red="0.99215686274509807" green="0.33333333333333331" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Xem ngay">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="actionWhatchAds:" destination="-1" eventType="touchUpInside" id="vjY-gc-5az"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.8428485576923076" green="0.8428485576923076" blue="0.8428485576923076" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="C24-Qx-q3a" firstAttribute="centerX" secondItem="8iF-iD-CZH" secondAttribute="centerX" id="1E1-se-8NS"/>
+                        <constraint firstAttribute="trailing" secondItem="iIt-Rc-yci" secondAttribute="trailing" constant="8" id="BaB-oK-woh"/>
+                        <constraint firstAttribute="bottom" secondItem="C24-Qx-q3a" secondAttribute="bottom" constant="5" id="JM4-NS-NxN"/>
+                        <constraint firstItem="iIt-Rc-yci" firstAttribute="leading" secondItem="8iF-iD-CZH" secondAttribute="leading" constant="8" id="aot-uG-Tq5"/>
+                        <constraint firstItem="iIt-Rc-yci" firstAttribute="top" secondItem="8iF-iD-CZH" secondAttribute="top" constant="5" id="jOO-eF-Gb7"/>
+                        <constraint firstItem="C24-Qx-q3a" firstAttribute="top" secondItem="iIt-Rc-yci" secondAttribute="bottom" constant="5" id="noj-N5-7Qo"/>
+                        <constraint firstItem="C24-Qx-q3a" firstAttribute="width" secondItem="8iF-iD-CZH" secondAttribute="width" multiplier="1/3" id="vuS-Ym-PHC"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Jn-Lg-SIS">
+                    <rect key="frame" x="0.0" y="133.5" width="375" height="533.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8iF-iD-CZH" firstAttribute="top" secondItem="McW-Ys-ANB" secondAttribute="bottom" id="09Z-jU-WNZ"/>
+                <constraint firstAttribute="bottom" secondItem="7Jn-Lg-SIS" secondAttribute="bottom" id="5gr-pd-nGo"/>
+                <constraint firstItem="McW-Ys-ANB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ACV-r3-udC"/>
+                <constraint firstItem="7Jn-Lg-SIS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JDe-vh-Qnz"/>
+                <constraint firstItem="7Jn-Lg-SIS" firstAttribute="top" secondItem="8iF-iD-CZH" secondAttribute="bottom" id="daB-6U-tAf"/>
+                <constraint firstAttribute="trailing" secondItem="McW-Ys-ANB" secondAttribute="trailing" id="eM5-TX-aEM"/>
+                <constraint firstItem="McW-Ys-ANB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nhK-9J-4Hc"/>
+                <constraint firstAttribute="trailing" secondItem="7Jn-Lg-SIS" secondAttribute="trailing" id="oBB-Jl-Hts"/>
+                <constraint firstItem="8iF-iD-CZH" firstAttribute="height" secondItem="McW-Ys-ANB" secondAttribute="height" id="pmr-pb-LbL"/>
+                <constraint firstItem="8iF-iD-CZH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tQb-HY-EI4"/>
+                <constraint firstAttribute="trailing" secondItem="8iF-iD-CZH" secondAttribute="trailing" id="uau-Y2-8Bb"/>
+                <constraint firstItem="McW-Ys-ANB" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/10" id="w3w-et-uC6"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="58.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close-view" width="30" height="30"/>
+        <image name="delete-recbin" width="40" height="40"/>
+    </resources>
+</document>

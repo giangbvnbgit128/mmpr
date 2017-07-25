@@ -41,15 +41,11 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-         self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.isNavigationBarHidden = false
         self.sideMenuViewController?.presentLeftMenuViewController()
         
     }
     
-    
-    func setUpSildemenu() {
-        self.sideMenuViewController.
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -58,41 +54,44 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
     
     func setUpTabBar() {
         
-//        self.tabBarView.tintColor = UIColor.red
-//        
-//        let HomeVC      = AVHomeViewController()
-//        let NewsVC      = AVNewsViewController()
-//        let ServiceVC   = AVServiceViewController()
-//        let PersonalVC  = AVPersonalViewController()
-//        let controllerArray = [ AVBaseNavigationController(rootViewController: HomeVC),
-//                                AVBaseNavigationController(rootViewController: NewsVC),
-//                                AVBaseNavigationController(rootViewController: ServiceVC),
-//                                AVBaseNavigationController(rootViewController: PersonalVC)]
-//        let parameters: [CAPSPageMenuOption] = [
-//            .scrollMenuBackgroundColor(UIColor(hex: "313131")),
-//            .viewBackgroundColor(UIColor.white),
-//            .selectionIndicatorColor(UIColor(hex: "13b2e2")),
-//            .selectedMenuItemLabelColor(UIColor(hex: "13b2e2")),
-//            .addBottomMenuHairline(true),
-//            .menuItemFont(CCFont(.HiraKakuPro, .W6, 10)),
-//            .menuHeight(0),
-//            .selectionIndicatorHeight(0.0),
-//            .selectionIndicatorHeight(2.0),
-//            .bottomMenuHairlineColor(UIColor.clear),
-//            .centerMenuItems(true),
-//            .menuItemWidth(UIScreen.mainWidth/6),
-//            .menuMargin(1),
-//            .menuItemMargin(1)
-//        ]
-//        
-//        let heightTopView = self.heightStatusBar() + self.tabBarView.frame.height + 10
-//        
-//        let framePapeMenu = CGRect(x: 0, y: heightTopView, width: self.view.bounds.width, height: self.view.bounds.height - heightTopView)
-//        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: framePapeMenu, pageMenuOptions: parameters)
-//        pageMenu?.delegate = self
-//        if let pageMenu = pageMenu {
-//            self.view.addSubview(pageMenu.view)
-//        }
+        self.tabBarView.tintColor = UIColor.red
+        
+        let dicoverVC       = MGDiscoverViewController()
+        let newestVC        = MGNewestViewController()
+        let toplistVC       = MGTopViewController()
+        let categorylistVC  = MGCategoryViewController()
+        let labriVC         = MGLabriViewController()
+        let controllerArray = [ MGBaseNavigationController(rootViewController: dicoverVC),
+                                MGBaseNavigationController(rootViewController: newestVC),
+                                MGBaseNavigationController(rootViewController: toplistVC),
+                                MGBaseNavigationController(rootViewController: categorylistVC),
+                                MGBaseNavigationController(rootViewController: labriVC)
+                                ]
+        let parameters: [CAPSPageMenuOption] = [
+            .scrollMenuBackgroundColor(UIColor(hex: "313131")),
+            .viewBackgroundColor(UIColor.white),
+            .selectionIndicatorColor(UIColor(hex: "13b2e2")),
+            .selectedMenuItemLabelColor(UIColor(hex: "13b2e2")),
+            .addBottomMenuHairline(true),
+            .menuItemFont(CCFont(.HiraKakuPro, .W6, 10)),
+            .menuHeight(0),
+            .selectionIndicatorHeight(0.0),
+            .selectionIndicatorHeight(2.0),
+            .bottomMenuHairlineColor(UIColor.clear),
+            .centerMenuItems(true),
+            .menuItemWidth(UIScreen.mainWidth/6),
+            .menuMargin(1),
+            .menuItemMargin(1)
+        ]
+        
+        let heightTopView = self.heightStatusBar() + self.tabBarView.frame.height + 10
+        
+        let framePapeMenu = CGRect(x: 0, y: heightTopView, width: self.view.bounds.width, height: self.view.bounds.height - heightTopView)
+        pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: framePapeMenu, pageMenuOptions: parameters)
+        pageMenu?.delegate = self
+        if let pageMenu = pageMenu {
+            self.view.addSubview(pageMenu.view)
+        }
         
         
     }
@@ -114,6 +113,8 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
     }
 
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        
+        self.sideMenuViewController?.presentLeftMenuViewController()
         if item.tag == 0 {
             if let block = blockReloadData {
                 block()
