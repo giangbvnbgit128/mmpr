@@ -24,7 +24,7 @@
                         <rect key="frame" x="-0.5" y="0.0" width="323" height="64.5"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kvi-fv-A8f">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-button" translatesAutoresizingMaskIntoConstraints="NO" id="Kvi-fv-A8f">
                         <rect key="frame" x="8" y="8" width="48.5" height="48.5"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="Kvi-fv-A8f" secondAttribute="height" multiplier="1:1" id="dJZ-HX-eMU"/>
@@ -81,6 +81,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="download_icon" width="18" height="15"/>
+        <image name="menu-button" width="22" height="17"/>
     </resources>
 </document>

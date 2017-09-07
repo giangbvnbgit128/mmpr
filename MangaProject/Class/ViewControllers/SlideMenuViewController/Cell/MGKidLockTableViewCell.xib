@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,21 +23,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="369" height="67.5"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kid" translatesAutoresizingMaskIntoConstraints="NO" id="sub-sY-Ogw">
-                                <rect key="frame" x="8" y="4" width="57.5" height="58"/>
+                                <rect key="frame" x="8" y="13" width="40" height="40.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="sub-sY-Ogw" secondAttribute="height" multiplier="1:1" id="VH7-NG-c4g"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kids lock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yx6-tQ-EqP">
-                                <rect key="frame" x="73.5" y="0.0" width="222" height="67.5"/>
+                                <rect key="frame" x="56" y="0.0" width="239.5" height="67.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUn-EU-PV1">
-                                <rect key="frame" x="295.5" y="-0.5" width="68.5" height="68"/>
+                                <rect key="frame" x="296" y="-0.5" width="68" height="68"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZUn-EU-PV1" secondAttribute="height" multiplier="1:1" id="171-JS-sFf"/>
+                                </constraints>
                                 <state key="normal" image="switch-on"/>
                                 <connections>
                                     <action selector="actionLockKids:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8XV-yW-ocO"/>
@@ -47,17 +49,15 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="centerX" secondItem="0Ve-gF-zLm" secondAttribute="centerX" id="0mT-9Z-MER"/>
-                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="leading" secondItem="sub-sY-Ogw" secondAttribute="trailing" constant="8" id="5N0-8O-iBR"/>
-                            <constraint firstItem="ZUn-EU-PV1" firstAttribute="leading" secondItem="yx6-tQ-EqP" secondAttribute="trailing" id="5Oj-Vb-Vcm"/>
+                            <constraint firstItem="ZUn-EU-PV1" firstAttribute="top" secondItem="0Ve-gF-zLm" secondAttribute="top" id="11O-yq-uBT"/>
+                            <constraint firstAttribute="trailing" secondItem="ZUn-EU-PV1" secondAttribute="trailing" constant="5" id="5GR-9g-m1m"/>
                             <constraint firstItem="sub-sY-Ogw" firstAttribute="leading" secondItem="0Ve-gF-zLm" secondAttribute="leading" constant="8" id="8Gs-Gm-rID"/>
-                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="width" secondItem="0Ve-gF-zLm" secondAttribute="width" multiplier="6/10" id="HIA-C5-Tv0"/>
-                            <constraint firstItem="ZUn-EU-PV1" firstAttribute="centerY" secondItem="0Ve-gF-zLm" secondAttribute="centerY" id="Leq-c1-LIo"/>
+                            <constraint firstAttribute="bottom" secondItem="yx6-tQ-EqP" secondAttribute="bottom" id="Fw1-Sc-134"/>
+                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="leading" secondItem="sub-sY-Ogw" secondAttribute="trailing" constant="8" id="MJA-3C-O75"/>
                             <constraint firstItem="sub-sY-Ogw" firstAttribute="centerY" secondItem="0Ve-gF-zLm" secondAttribute="centerY" id="NDe-H4-7v9"/>
-                            <constraint firstAttribute="trailing" secondItem="ZUn-EU-PV1" secondAttribute="trailing" constant="5" id="QGk-PM-8NX"/>
-                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="height" secondItem="0Ve-gF-zLm" secondAttribute="height" id="XZe-3f-bRT"/>
-                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="centerY" secondItem="0Ve-gF-zLm" secondAttribute="centerY" id="iZe-lc-l6e"/>
-                            <constraint firstItem="ZUn-EU-PV1" firstAttribute="height" secondItem="0Ve-gF-zLm" secondAttribute="height" id="pOi-3D-sPy"/>
+                            <constraint firstItem="yx6-tQ-EqP" firstAttribute="top" secondItem="0Ve-gF-zLm" secondAttribute="top" id="Wbs-65-wnf"/>
+                            <constraint firstAttribute="bottom" secondItem="ZUn-EU-PV1" secondAttribute="bottom" id="jcQ-Wa-vDt"/>
+                            <constraint firstItem="ZUn-EU-PV1" firstAttribute="leading" secondItem="yx6-tQ-EqP" secondAttribute="trailing" id="soS-FU-svE"/>
                         </constraints>
                     </view>
                 </subviews>

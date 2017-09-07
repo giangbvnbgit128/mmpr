@@ -17,7 +17,7 @@ class MGBaseViewController: UIViewController{
         self.view.bringSubview(toFront: indicator)
         self.indicator.backgroundColor = UIColor.clear
         self.indicator.frame = CGRect( x: UIScreen.main.bounds.width/2 - 25, y: UIScreen.main.bounds.height/2 - 25 - self.heightStatusBar() - 55, width: 50, height: 50)
-        
+        self.navigationController?.isNavigationBarHidden = true
     }
     
     func isHiddenNavigationBar(isHidden:Bool) {
@@ -45,23 +45,6 @@ class MGBaseViewController: UIViewController{
         
         // show the alert
         self.present(alert, animated: true, completion: nil)
-        
-    }
-    // MARK: - Setup
-    func setRightBarIconParent() {
-        let leftButton = UIButton(type: .custom)
-            leftButton.addTarget(self, action: #selector(self.clickRightButtom), for: .touchUpInside)
-            leftButton.frame = CGRect(x: 0, y: 0, width: 32, height: 32)
-            leftButton.setImage(UIImage(named: "top_add"), for: .normal)
-            leftButton.contentMode = .scaleAspectFit
-        let leftView = UIView(x: 0, y: 0, width: 32, height: 32)
-            leftView.addSubview(leftButton)
-//            MainSettingViewController.ShareInstance.navigationItem.setRightBarButton(UIBarButtonItem(customView: leftView), animated: false)
-//                navigationItem.setRightBarButton(UIBarButtonItem(customView: leftView), animated: false)
-        
-    }
-    
-    func clickRightButtom()  {
         
     }
 }

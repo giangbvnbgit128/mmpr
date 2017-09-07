@@ -12,12 +12,15 @@ import AKSideMenu
 class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDelegate {
     @IBOutlet weak var tabBarView: UITabBar!
     var pageMenu: CAPSPageMenu?
-    @IBOutlet weak var homeItem: UITabBarItem!
-    
     @IBOutlet weak var nsContraintHeightTabbar: NSLayoutConstraint!
-    @IBOutlet weak var newsItem: UITabBarItem!
-    @IBOutlet weak var ServiceItem: UITabBarItem!
-    @IBOutlet weak var personalItem: UITabBarItem!
+    
+    @IBOutlet weak var discoverTab: UITabBarItem!
+    @IBOutlet weak var newestTab: UITabBarItem!
+    @IBOutlet weak var topViewTab: UITabBarItem!
+    @IBOutlet weak var categoryTab: UITabBarItem!
+    @IBOutlet weak var labriTab: UITabBarItem!
+    
+    
     var blockReloadData:(()->Void)?
     struct Static {
         static var instance: MGMainViewController?
@@ -34,15 +37,15 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
         tabBarView.isTranslucent = false
         self.setUpTabBar()
         tabBarView.delegate = self
-        tabBarView.selectedItem = homeItem
-    
+        tabBarView.selectedItem = discoverTab
+        navigationController?.navigationBar.barTintColor = UIColor.MGColorNavigationbar()
         Static.instance = self
+        self.setRightBarIconParent()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
-        self.sideMenuViewController?.presentLeftMenuViewController()
         
     }
     
@@ -84,9 +87,9 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
             .menuItemMargin(1)
         ]
         
-        let heightTopView = self.heightStatusBar() + self.tabBarView.frame.height + 10
+        let heightTopView = self.heightStatusBar() + (navigationController?.navigationBar.frame.height ?? 0)
         
-        let framePapeMenu = CGRect(x: 0, y: heightTopView, width: self.view.bounds.width, height: self.view.bounds.height - heightTopView)
+        let framePapeMenu = CGRect(x: 0, y: heightTopView, width: self.view.bounds.width, height: self.view.bounds.height - heightTopView - self.tabBarView.frame.height)
         pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: framePapeMenu, pageMenuOptions: parameters)
         pageMenu?.delegate = self
         if let pageMenu = pageMenu {
@@ -96,30 +99,38 @@ class MGMainViewController: UIViewController, UITabBarDelegate, CAPSPageMenuDele
         
     }
     
+    // MARK: - Setup
+    func setRightBarIconParent() {
+        let leftButton = UIButton(type: .custom)
+        leftButton.addTarget(self, action: #selector(self.clickRightButtom), for: .touchUpInside)
+        leftButton.frame = CGRect(x: -15, y: -5, width: 50, height: 50)
+        leftButton.setImage(UIImage(named: "action"), for: .normal)
+        leftButton.contentMode = .scaleAspectFit
+        let leftView = UIView(x: 0, y: 0, width: 50, height: 50)
+        leftView.addSubview(leftButton)
+        self.navigationItem.setLeftBarButton(UIBarButtonItem(customView: leftView), animated: false)
+    }
+    
+    func clickRightButtom()  {
+        self.sideMenuViewController?.presentLeftMenuViewController()
+    }
+    
     func didMoveToPage(_ controller: UIViewController, index: Int) {
         switch index {
         case 0:
-            tabBarView.selectedItem = homeItem
-            if let block = blockReloadData {
-                block()
-            }
+            tabBarView.selectedItem = discoverTab
         case 1:
-            tabBarView.selectedItem = newsItem
+            tabBarView.selectedItem = newestTab
         case 2:
-            tabBarView.selectedItem = ServiceItem
+            tabBarView.selectedItem = topViewTab
+        case 3:
+            tabBarView.selectedItem = categoryTab
         default:
-            tabBarView.selectedItem = personalItem
+            tabBarView.selectedItem = labriTab
         }
     }
 
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        
-        self.sideMenuViewController?.presentLeftMenuViewController()
-        if item.tag == 0 {
-            if let block = blockReloadData {
-                block()
-            }
-        }
          pageMenu?.moveToPage(item.tag)
     }
     
